@@ -1,0 +1,23 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#f6f7f9;color:#111827;padding-bottom:80px}
+.top{background:#111827;color:#fff;padding:24px 16px;text-align:center}
+.top h1{margin:0;font-size:28px}
+.top p{margin:6px 0 0;opacity:.85}
+main{max-width:900px;margin:0 auto;padding:16px}
+.hero{text-align:center;margin:8px 0 20px}
+.btn-ofertas{background:#f59e0b;border:0;color:#111827;font-size:20px;font-weight:800;padding:16px 24px;border-radius:999px;cursor:pointer;width:100%;max-width:420px}
+.note{color:#4b5563;font-size:14px}
+.search{background:#fff;border-radius:16px;padding:16px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.search label{font-weight:700}
+.search input{width:100%;margin:8px 0;padding:12px;border:2px solid #d1d5db;border-radius:10px;font-size:16px}
+#btnBuscar{width:100%;padding:12px;background:#111827;color:#fff;border:0;border-radius:10px;font-size:16px;font-weight:700;cursor:pointer}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chips button{border:1px solid #d1d5db;background:#f9fafb;border-radius:999px;padding:8px 12px;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin-top:12px}
+.card{background:#fff;border-radius:14px;padding:14px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.card h3{margin:0 0 6px}
+.card a{display:inline-block;margin-top:10px;background:#111827;color:#fff;text-decoration:none;padding:10px 14px;border-radius:10px;font-weight:700}
+.card a.deal{background:#f59e0b;color:#111827}
+.bottombar{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid #e5e7eb;padding:10px;text-align:center}
+.bottombar button{background:#f59e0b;border:0;font-size:18px;font-weight:800;padding:12px 28px;border-radius:999px;cursor:pointer}
+.tips{background:#fff;border-radius:16px;padding:16px;margin-top:20px}
