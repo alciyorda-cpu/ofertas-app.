@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ofertas App — Amazon, eBay, Temu, Shein, Walmart</title>
+<meta name="description" content="Busca un producto y compáralo en Amazon, eBay, Temu, Shein y Walmart. Entra a las ofertas con un botón.">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#111827">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <h1>🛍️ Ofertas App</h1>
+  <p>Amazon · eBay · Temu · Shein · Walmart</p>
+</header>
+
+<main>
+  <section class="hero">
+    <button id="btnOfertas" class="btn-ofertas">🔥 Ver ofertas de hoy</button>
+    <p class="note">Las tiendas no permiten sacar sus precios con una API libre. La app te lleva a la búsqueda y a las ofertas oficiales de cada tienda, para que compares el precio real allí.</p>
+  </section>
+
+  <section class="search">
+    <label for="q">¿Qué quieres comprar?</label>
+    <input id="q" type="search" placeholder="Ej: smartwatch, freidora de aire, zapatos..." autocomplete="off">
+    <button id="btnBuscar">Comparar precios</button>
+    <div class="chips" id="chips"></div>
+  </section>
+
+  <section id="resultados" class="resultados" hidden>
+    <h2 id="resultTitle"></h2>
+    <div id="storeCards" class="grid"></div>
+  </section>
+
+  <section id="ofertas" class="ofertas">
+    <h2>Ofertas por tienda</h2>
+    <p>Toca una tienda para abrir su página oficial de ofertas.</p>
+    <div id="offerCards" class="grid"></div>
+  </section>
+
+  <section class="tips">
+    <h2>Consejos para pagar menos</h2>
+    <ul>
+      <li>Compara el mismo producto en las 5 tiendas antes de comprar.</li>
+      <li>Revisa el envío y los impuestos: una oferta barata puede salir cara.</li>
+      <li>Guarda tus favoritos con ⭐ y vuelve a ellos desde esta app.</li>
+    </ul>
+    <h3>Dejarla en la pantalla de inicio (Android)</h3>
+    <ol>
+      <li>Abre la app en Chrome.</li>
+      <li>Toca ⋮ → «Añadir a pantalla de inicio».</li>
+      <li>Ya la tendrás como una app, con su botón de Ofertas.</li>
+    </ol>
+  </section>
+</main>
+
+<nav class="bottombar">
+  <button id="btnOfertasFijo">🔥 Ofertas</button>
+</nav>
+
+<script src="app.js"></script>
+</body>
+</html>
